@@ -14,9 +14,9 @@ const removeActiveClass = () => {
     console.log(buttons);
     for(let btn of buttons){
         btn.classList.remove('active');
-    }
-}
-// fetch, load and show categories on html
+    };
+};
+
 
 // create categories
 const loadCategories = () => {
